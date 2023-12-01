@@ -1,37 +1,12 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "cypress-on-gitpod",
+  "description": "Just testing",
   "version": "0.0.1",
   "scripts": {
-    "dev": "sapper dev",
-    "build": "sapper build --legacy",
-    "export": "sapper export --legacy",
-    "start": "node __sapper__/build",
     "cy:run": "cypress run",
-    "cy:open": "cypress open",
-    "test": "run-p --race dev cy:run"
-  },
-  "dependencies": {
-    "compression": "^1.7.4",
-    "polka": "next",
-    "sirv": "^2.0.3"
+    "cy:open": "cypress open"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.5",
-    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-    "@babel/plugin-transform-runtime": "^7.23.4",
-    "@babel/preset-env": "^7.23.5",
-    "@babel/runtime": "^7.23.5",
-    "@rollup/plugin-commonjs": "25.0.7",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-replace": "^5.0.5",
-    "cypress": "^13.6.0",
-    "npm-run-all": "^4.1.5",
-    "rollup": "^4.6.1",
-    "rollup-plugin-babel": "^4.0.2",
-    "rollup-plugin-svelte": "^7.1.6",
-    "rollup-plugin-terser": "^5.3.0",
-    "sapper": "^0.27.0",
-    "svelte": "^4.2.8"
+    "cypress": "^13.6.0"
   }
 }
