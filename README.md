@@ -1,16 +1,16 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/mikenikles/cypress-on-gitpod)
+## Cypress on gitpod
 
-# cypress-on-gitpod
-A template repository to run [Cypress.io](https://www.cypress.io/) on [Gitpod.io](https://www.gitpod.io/).
+Cypress 13 with e2e tests running on gitpod.io.
 
-## Getting Started
+## Why
 
-Click the Gitpod - Ready-to-Code badge above to start the development environment in your browser.
+This way you can start up a Cypress instance without running it locally.
 
-### Gitpod Disount
+This is useful for demonstration purposes and potentially for collaborative cypress UI? 
 
-If you like the simplicity of a one-click development environment, you can contact me to get 30% off for the first 3 months of your Gitpod
-subscription.
+Warning: This is not a typical way to run Cypress and is likely not fully supported. 
+
+Originally based on [cypress-on-gitpod](https://github.com/mikenikles/cypress-on-gitpod) with upgraded dependencies.
 
 ## How does it work?
 
